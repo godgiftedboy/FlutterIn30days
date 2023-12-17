@@ -8,11 +8,17 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('heeo'),
-        foregroundColor: Colors.white,
-        backgroundColor: Colors.black,
       ),
       body: const Center(
-        child: Text('HelloWordl!'),
+        child: Text(
+          'HelloWordl!',
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.blue,
+            fontWeight: FontWeight.bold,
+          ),
+          textScaleFactor: 2.0,
+        ),
       ),
       drawer: Drawer(),
     );
