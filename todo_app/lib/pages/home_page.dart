@@ -11,13 +11,11 @@ class HomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'HelloWordl!',
+          'Flutter learning process!',
           style: TextStyle(
             fontSize: 20,
-            color: Colors.blue,
             fontWeight: FontWeight.bold,
           ),
-          textScaleFactor: 2.0,
         ),
       ),
       drawer: Drawer(),
